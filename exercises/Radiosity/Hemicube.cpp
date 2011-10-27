@@ -124,9 +124,9 @@ unsigned int Hemicube::getIndex(int px, int py) {
 	assert(px>=0 && px<rendersize);
 	assert(py>=0 && py<rendersize);
 		
- 	unsigned char r = (unsigned char)data[(rendersize*(py)+px)*3+0]; 
- 	unsigned char g = (unsigned char)data[(rendersize*(py)+px)*3+1]; 
- 	unsigned char b = (unsigned char)data[(rendersize*(py)+px)*3+2]; 
+	unsigned char r = (unsigned char)data[(rendersize*(py)+px)*3+0]; 
+	unsigned char g = (unsigned char)data[(rendersize*(py)+px)*3+1]; 
+	unsigned char b = (unsigned char)data[(rendersize*(py)+px)*3+2]; 
 
 	return ((r*256)+g)*256+b;
 			
