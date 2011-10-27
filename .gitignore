@@ -3,6 +3,7 @@
 Thumbs.db
 #Ignore files build by Visual Studio
 *.opensdf
+*.sdf
 *.obj
 *.exe
 *.pdb
@@ -28,3 +29,6 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+*.sdf
+radiosity.sdf
+exercises/Radiosity/radiosity.sdf
