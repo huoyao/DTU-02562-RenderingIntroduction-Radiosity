@@ -10,6 +10,7 @@ public:
 	// The variables below should be used in nodal averaging.
 	int colorcount;     // Number of polygons incident on this vertex.
 	CGLA::Vec3f color;  // Final (averaged) colour of vertex.
+	CGLA::Vec3f rad;        // Radiosity (converges to polygon colour)
 };
 
 class MyPolygon {

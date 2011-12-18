@@ -149,7 +149,9 @@
   <ItemGroup>
     <None Include="cornell_1.x3d" />
     <None Include="cornell_2.x3d" />
-    <None Include="Resource.xml" />
+    <None Include="Resource.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataFormat.h" />
